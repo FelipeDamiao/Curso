@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Inicial</title>
+    <link rel="stylesheet" href= "{% static 'css/fundo.css' %}">   
 </head>
 <body>
     <h3>Ben vindos ao nodulo paginas</h3>
+    <img src="{% static 'img/cachorrocopa.jpg' %}" width="200" alt="vai bostil">
 </body>
 </html>
